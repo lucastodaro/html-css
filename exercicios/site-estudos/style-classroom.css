@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    background-image: linear-gradient(to bottom, #54a9ff56, transparent);
+    background-attachment: fixed    ;
+}
+div#p{
+    border: 1px solid black;
+    max-width: 1262px;
+    min-height: 873px;
+    margin: 50px auto auto auto;
+    border-radius: 8px;
+}
+header{
+    max-width: 1262px;
+    min-height: 212px;
+    margin: auto;
+    border-radius: 8px;
+    border-bottom: none;
+    background-image: linear-gradient(to bottom, #54aaff, transparent);
+   
+}
+header img{
+    margin: auto;
+    display: block;
+    max-width: 286px;
+    min-height: 200px;   
+}
+nav{
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom, #b1d8ff, transparent);
+    border-radius: 8px;
+    margin: 30px auto auto auto;
+    max-width: 650px;
+    min-height: 71px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.249), -1px -1px 5px rgba(0, 0, 0, 0.249);
+}
+nav h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+}
+main{
+    max-width: 834px;
+    min-height: 464px;
+    background-image: linear-gradient(to bottom, rgba(92, 187, 255, 0.569), #5b87ff);
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 40px auto auto auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.249), -1px -1px 5px rgba(0, 0, 0, 0.249);
+}
+main h2{
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px; 
+}
+
+a#pp{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    max-width: 287px;
+    min-height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 15px auto auto auto;
+    border: 1px solid black;  
+    color: black; 
+    transition-duration: 0.5s;    
+}
+a#pp:hover{
+    background-image: linear-gradient(to bottom, #5B87FF,#5CBBFF);
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.249), -1px -1px 5px rgba(0, 0, 0, 0.249);
+    text-decoration: underline;
+}
+ul{
+    columns: 2;
+}
+ul a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid black;
+    max-width: 287px;
+    min-height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 30px auto auto auto; 
+    transition-duration: 0.5s;
+}
+article{
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;  
+    margin-top: 7.5px;
+    padding: 10px;
+}
+li.ultimos{
+    position: relative;
+    top: 11.88%;
+}
+li:hover{
+    background-image: linear-gradient(to bottom, #5B87FF,#5CBBFF);
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.249), -1px -1px 5px rgba(0, 0, 0, 0.249);
+    text-decoration: underline;
+}
+footer{
+    max-width: 324px;
+    min-height: 31px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 16px auto 0px auto;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+footer p{
+    margin: 5px auto auto auto;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+}
+a#back{
+    color: black;
+    text-decoration: none;
+}
+footer:hover{
+    background-image: linear-gradient(to bottom, #5B87FF,#5CBBFF);
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.249), -1px -1px 5px rgba(0, 0, 0, 0.249);
+    text-decoration: underline; 
+}
