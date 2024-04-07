@@ -16,8 +16,9 @@ h1{
     font-family: "Passion One", sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 10vw;
+    font-size: 9vw;
     padding-top: 50px;
+    font-variant: small-caps;
 }
 p#autor{
     text-align: center;
